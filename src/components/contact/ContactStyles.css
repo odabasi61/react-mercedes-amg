@@ -1,0 +1,109 @@
+.contact {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    url("../../assets/amg3.jpg") no-repeat center center/cover;
+}
+
+.contact .container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact .top {
+  padding-top: 5rem;
+  color: #f6f6f6;
+}
+
+.contact .bottom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.contact form {
+  max-width: 600px;
+  width: 100%;
+}
+
+.contact form div {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+
+.contact form label {
+  margin: 1rem 0 0.2rem 0.7rem;
+  color: #eee;
+}
+
+.contact form input,
+textarea {
+  margin: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  outline: none;
+  font-family: "Roboto Condensed", sans-serif;
+  resize: none;
+}
+
+textarea {
+  height: 10rem;
+}
+
+.contact form input:hover,
+textarea:hover {
+  box-shadow: 0 0 4px 0;
+}
+
+.contact form input::placeholder,
+textarea::placeholder {
+  color: #333;
+}
+
+/* @media screen and (max-width: 700px) {
+  .contact .top {
+    padding-top: 1rem;
+    color: #f6f6f6;
+  }
+
+  textarea {
+    height: 5rem;
+  }
+
+  .contact form label {
+    margin: 0.5rem 0 0.2rem 0.7rem;
+  }
+
+  .contact form input,
+  textarea {
+    margin: 0.2rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+} */
